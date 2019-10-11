@@ -1,14 +1,14 @@
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  project: ""
+  clusterName: "standard-cluster-1"
+  environmentGitOwner: "yauheni-kalenski-hes"
+  project: "avana-test"
   provider: gke
-  zone: ""
+  registry: "gcr.io"
+  zone: " europe-west3-a"
 gitops: true
 environments:
 - key: dev
-- key: staging
-- key: production
+- key: test
 ingress:
   domain: ""
   externalDNS: false
